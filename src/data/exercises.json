@@ -1,0 +1,2562 @@
+{
+  "locale": "pt-PT",
+  "notes": "Portuguese names use European Portuguese (Portugal) gym wording, not Brazilian. Where Portuguese gyms commonly also use the English name, it is listed in pt_aliases. Cues are paraphrased, not copied from the source book.",
+  "exercises": [
+    {
+      "id": "dumbbell-sumo-deadlift",
+      "name_en": "Dumbbell Sumo Deadlift",
+      "name_en_variants": [],
+      "name_pt": "Peso morto sumo com halteres",
+      "pt_aliases": [
+        "Sumo deadlift com halteres"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "back",
+          "pt": "costas"
+        },
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        }
+      ],
+      "cues": [
+        "Stand tall, as if the top of your head is reaching toward the ceiling.",
+        "Keep that length as you send your hips back.",
+        "Drive the hips through so the glutes and hamstrings spring you upright.",
+        "Let the load settle for a moment before the next repetition."
+      ],
+      "primary_muscles_en": [
+        "glutes",
+        "hamstrings",
+        "back",
+        "quads"
+      ],
+      "primary_muscles_pt": [
+        "glúteos",
+        "isquiotibiais",
+        "costas",
+        "quadricípites"
+      ]
+    },
+    {
+      "id": "push-ups",
+      "name_en": "Push-Ups",
+      "name_en_variants": [
+        "Push-Ups (raised if needed)",
+        "Push-Ups (optional)",
+        "Push-Ups (go heavy)"
+      ],
+      "name_pt": "Flexões",
+      "pt_aliases": [
+        "Push-ups",
+        "Flexões de braços"
+      ],
+      "equipment": "bodyweight",
+      "equipment_pt": "peso corporal",
+      "primary_muscles": [
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        }
+      ],
+      "cues": [
+        "Set the hands under the shoulders and hold a rigid plank.",
+        "Lengthen the neck and keep the elbows about 45 degrees from the torso.",
+        "Drive the floor away as you press up.",
+        "Look straight down and stay in a straight line from head to heels."
+      ],
+      "primary_muscles_en": [
+        "chest",
+        "triceps",
+        "shoulders"
+      ],
+      "primary_muscles_pt": [
+        "peito",
+        "tríceps",
+        "ombros"
+      ]
+    },
+    {
+      "id": "dumbbell-bench-press",
+      "name_en": "Dumbbell Bench Press",
+      "name_pt": "Supino com halteres",
+      "pt_aliases": [
+        "Dumbbell bench press",
+        "Supino horizontal com halteres"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        }
+      ],
+      "cues": [
+        "Lengthen through the body with the head reaching long.",
+        "Pin the shoulder blades down and back, as if tucking them into your back pockets.",
+        "Press up as if punching the ceiling, elbows at about 45 degrees or a bit wider.",
+        "Lower under control, as if slowly driving an elbow toward someone’s midsection."
+      ],
+      "primary_muscles_en": [
+        "chest",
+        "triceps",
+        "shoulders"
+      ],
+      "primary_muscles_pt": [
+        "peito",
+        "tríceps",
+        "ombros"
+      ]
+    },
+    {
+      "id": "one-arm-dumbbell-row",
+      "name_en": "1-Arm Dumbbell Row",
+      "name_en_variants": [
+        "1-Arm Dumbbell Rows"
+      ],
+      "name_pt": "Remada unilateral com haltere",
+      "pt_aliases": [
+        "Remada a um braço",
+        "One-arm row",
+        "Dumbbell row"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Lengthen through the body with the head reaching long.",
+        "Press the supporting hand into the bench.",
+        "Grip the dumbbell firmly.",
+        "Row so the thumb travels up toward the armpit."
+      ],
+      "primary_muscles_en": [
+        "lats",
+        "mid-back",
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "dorsais",
+        "meio das costas",
+        "bíceps"
+      ]
+    },
+    {
+      "id": "chest-flies",
+      "name_en": "Chest Flies",
+      "name_en_variants": [
+        "Chest Flies (optional)"
+      ],
+      "name_pt": "Aberturas de peito",
+      "pt_aliases": [
+        "Chest fly",
+        "Crucifixo",
+        "Voos"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "chest",
+          "pt": "peito"
+        }
+      ],
+      "cues": [
+        "Imagine hugging a large object in a slow, controlled arc.",
+        "Only lower as far as you can control.",
+        "You do not need to finish all the way at the top.",
+        "Keep the chest muscles under tension throughout the set."
+      ],
+      "primary_muscles_en": [
+        "chest"
+      ],
+      "primary_muscles_pt": [
+        "peito"
+      ]
+    },
+    {
+      "id": "front-plank",
+      "name_en": "Front Plank",
+      "name_pt": "Prancha frontal",
+      "pt_aliases": [
+        "Prancha",
+        "Plank"
+      ],
+      "equipment": "bodyweight",
+      "equipment_pt": "peso corporal",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "abs",
+          "pt": "abdominais"
+        }
+      ],
+      "cues": [
+        "Lengthen through the body with the head reaching long.",
+        "Tuck the pelvis by squeezing the glutes so the hips come forward.",
+        "Breathe fully in and fully out on each breath-rep."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "abs"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "abdominais"
+      ]
+    },
+    {
+      "id": "pit-pulls",
+      "name_en": "Pit Pulls",
+      "name_pt": "Puxadas às axilas (pit pulls)",
+      "pt_aliases": [
+        "Pit pulls"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "rear delts",
+          "pt": "deltoides posteriores"
+        }
+      ],
+      "notes": "A B2B-specific mid-back hold: pull the thumbs toward the armpits and hold; each set has three holds.",
+      "cues": [
+        "Lengthen through the body with the head reaching long.",
+        "Draw the thumbs toward the armpits.",
+        "Hold still and feel the mid-back working.",
+        "Each set includes three separate holds."
+      ],
+      "primary_muscles_en": [
+        "mid-back",
+        "rear delts"
+      ],
+      "primary_muscles_pt": [
+        "meio das costas",
+        "deltoides posteriores"
+      ]
+    },
+    {
+      "id": "overhead-tricep-extensions",
+      "name_en": "Overhead Tricep Extensions",
+      "name_en_variants": [
+        "Overhead Tricep Extensions (optional)"
+      ],
+      "name_pt": "Extensões de tríceps por cima da cabeça",
+      "pt_aliases": [
+        "Overhead tricep extension",
+        "Extensão de tríceps acima da cabeça"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        }
+      ],
+      "cues": [
+        "Brace so the midsection is tight.",
+        "Keep tension on the triceps through the whole movement."
+      ],
+      "primary_muscles_en": [
+        "triceps"
+      ],
+      "primary_muscles_pt": [
+        "tríceps"
+      ]
+    },
+    {
+      "id": "goblet-squat",
+      "name_en": "Goblet Squat",
+      "name_en_variants": [
+        "Goblet Squats"
+      ],
+      "name_pt": "Agachamento goblet",
+      "pt_aliases": [
+        "Goblet squat",
+        "Agachamento com haltere à frente"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Stand tall, weight on the heels, feet about shoulder-width.",
+        "Sit down between the knees while staying long through the torso.",
+        "Keep the elbows inside the knees and the knees tracking out.",
+        "Stop before the lower back starts to round."
+      ],
+      "primary_muscles_en": [
+        "quads",
+        "glutes",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "quadricípites",
+        "glúteos",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "underhand-lat-pulldown",
+      "name_en": "Underhand Lat Pulldown",
+      "name_en_variants": [
+        "Underhand Lat Pulldowns"
+      ],
+      "name_pt": "Puxada à frente com pega supinada",
+      "pt_aliases": [
+        "Lat pulldown",
+        "Puxada à frente",
+        "Puxada de costas"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        },
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        }
+      ],
+      "cues": [
+        "Take an underhand grip at about shoulder width.",
+        "Stay tall, brace the midsection, and keep a neutral spine.",
+        "Pull so the thumbs travel down toward the chest."
+      ],
+      "primary_muscles_en": [
+        "lats",
+        "biceps",
+        "mid-back"
+      ],
+      "primary_muscles_pt": [
+        "dorsais",
+        "bíceps",
+        "meio das costas"
+      ]
+    },
+    {
+      "id": "dumbbell-romanian-deadlift",
+      "name_en": "Dumbbell Romanian Deadlift",
+      "name_en_variants": [
+        "Dumbbell Romanian Deadlifts"
+      ],
+      "name_pt": "Peso morto romeno com halteres",
+      "pt_aliases": [
+        "RDL com halteres",
+        "Romanian deadlift"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "back",
+          "pt": "costas"
+        }
+      ],
+      "cues": [
+        "Stand tall with the feet about hip-width apart.",
+        "Send the hips back.",
+        "Lower the dumbbells to about knee height.",
+        "Stand up by springing the glutes and hamstrings."
+      ],
+      "primary_muscles_en": [
+        "hamstrings",
+        "glutes",
+        "back"
+      ],
+      "primary_muscles_pt": [
+        "isquiotibiais",
+        "glúteos",
+        "costas"
+      ]
+    },
+    {
+      "id": "split-squats",
+      "name_en": "Split Squats (bodyweight or dumbbells)",
+      "name_pt": "Afundo estático (peso corporal ou halteres)",
+      "pt_aliases": [
+        "Split squat",
+        "Afundo",
+        "Lunges estáticos"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "equipment_notes": "Can also be done with bodyweight only.",
+      "primary_muscles": [
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        }
+      ],
+      "cues": [
+        "Aim for roughly a right angle at both knees at the bottom.",
+        "Keep the front shin fairly vertical and the back thigh fairly vertical.",
+        "Brace and push through the front heel.",
+        "You should feel the work in the front leg."
+      ],
+      "primary_muscles_en": [
+        "quads",
+        "glutes"
+      ],
+      "primary_muscles_pt": [
+        "quadricípites",
+        "glúteos"
+      ]
+    },
+    {
+      "id": "side-plank",
+      "name_en": "Side Plank",
+      "name_en_variants": [
+        "Side Planks"
+      ],
+      "name_pt": "Prancha lateral",
+      "pt_aliases": [
+        "Side plank"
+      ],
+      "equipment": "bodyweight",
+      "equipment_pt": "peso corporal",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "obliques",
+          "pt": "oblíquos"
+        }
+      ],
+      "cues": [
+        "Lengthen through the body, reaching the head long.",
+        "Drive the hips forward by squeezing the glutes.",
+        "Perform the work on both sides.",
+        "Breathe fully in and fully out on each breath-rep."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "obliques"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "oblíquos"
+      ]
+    },
+    {
+      "id": "dumbbell-pullover",
+      "name_en": "Dumbbell Pullover",
+      "name_en_variants": [
+        "Dumbbell Pullovers"
+      ],
+      "name_pt": "Pullover com haltere",
+      "pt_aliases": [
+        "Pullover"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Start with the dumbbell above the forehead.",
+        "Brace the midsection and keep a slight bend in the arms.",
+        "Lower behind the head until you feel a stretch.",
+        "Lift using the lats and chest while keeping the midsection tight and tension on the muscles."
+      ],
+      "primary_muscles_en": [
+        "lats",
+        "chest",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "dorsais",
+        "peito",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "lateral-raise",
+      "name_en": "Lateral Raise",
+      "name_en_variants": [
+        "Lateral Raises"
+      ],
+      "name_pt": "Elevações laterais",
+      "pt_aliases": [
+        "Lateral raise",
+        "Elevações laterais de ombros"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "side delts",
+          "pt": "deltoides laterais"
+        }
+      ],
+      "cues": [
+        "Hips forward, head high.",
+        "The weights will travel slightly in front of the body.",
+        "Use a load you can move smoothly; go lighter if it gets jerky.",
+        "A slight bend in the elbows is fine."
+      ],
+      "primary_muscles_en": [
+        "shoulders",
+        "side delts"
+      ],
+      "primary_muscles_pt": [
+        "ombros",
+        "deltoides laterais"
+      ]
+    },
+    {
+      "id": "seated-row",
+      "name_en": "Seated Row",
+      "name_pt": "Remada sentada",
+      "pt_aliases": [
+        "Seated row",
+        "Remada na máquina",
+        "Remada baixa"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Sit tall with the head reaching long.",
+        "Start with the arms reaching forward.",
+        "Pull the load with the back muscles, not just the arms.",
+        "Finish with the elbows about two inches behind the torso."
+      ],
+      "primary_muscles_en": [
+        "mid-back",
+        "lats",
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "meio das costas",
+        "dorsais",
+        "bíceps"
+      ]
+    },
+    {
+      "id": "step-ups",
+      "name_en": "Step-Ups (bodyweight or dumbbells)",
+      "name_pt": "Step-up (peso corporal ou halteres)",
+      "pt_aliases": [
+        "Step-ups",
+        "Subida ao banco"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "equipment_notes": "Can also be done with bodyweight only.",
+      "primary_muscles": [
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        }
+      ],
+      "cues": [
+        "Keep the shoulders and hips square and facing forward.",
+        "Press the working foot through the step to stand up.",
+        "Do not let the knee collapse inward or flare excessively outward.",
+        "Stay up on that leg, then switch sides."
+      ],
+      "primary_muscles_en": [
+        "quads",
+        "glutes"
+      ],
+      "primary_muscles_pt": [
+        "quadricípites",
+        "glúteos"
+      ]
+    },
+    {
+      "id": "farmer-carry",
+      "name_en": "Farmer Carries",
+      "name_en_variants": [
+        "Farmer Carry"
+      ],
+      "name_pt": "Passeio do agricultor",
+      "pt_aliases": [
+        "Farmer walk",
+        "Farmer carry",
+        "Transporte de malas"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "traps",
+          "pt": "trapézios"
+        },
+        {
+          "en": "forearms",
+          "pt": "antebraços"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        }
+      ],
+      "cues": [
+        "Hips forward, head high.",
+        "Start walking with a confident, upright posture.",
+        "Hold the weights firmly and keep tight as you go.",
+        "If the gym is crowded, you may hold the position in place instead of walking."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "traps",
+        "forearms",
+        "glutes"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "trapézios",
+        "antebraços",
+        "glúteos"
+      ]
+    },
+    {
+      "id": "tyis-incline-bench",
+      "name_en": "TYIs on Incline Bench",
+      "name_pt": "Elevações T-Y-I no banco inclinado",
+      "pt_aliases": [
+        "Y-T-I",
+        "TYI",
+        "Face pulls de ombro no banco"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "rear delts",
+          "pt": "deltoides posteriores"
+        },
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "rotator cuff",
+          "pt": "manguito rotador"
+        }
+      ],
+      "cues": [
+        "Lengthen the neck and stay tall.",
+        "Reach as high as you can without straining.",
+        "Do the listed number of repetitions for the T, the Y, and the I positions."
+      ],
+      "primary_muscles_en": [
+        "rear delts",
+        "mid-back",
+        "rotator cuff"
+      ],
+      "primary_muscles_pt": [
+        "deltoides posteriores",
+        "meio das costas",
+        "manguito rotador"
+      ]
+    },
+    {
+      "id": "tyis-flat-bench",
+      "name_en": "TYIs On Flat Bench",
+      "name_pt": "Elevações T-Y-I no banco plano",
+      "pt_aliases": [
+        "Y-T-I",
+        "TYI"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "rear delts",
+          "pt": "deltoides posteriores"
+        },
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "rotator cuff",
+          "pt": "manguito rotador"
+        }
+      ],
+      "cues": [
+        "Lengthen the neck and stay tall.",
+        "Reach as high as you can without straining.",
+        "Do the listed number of repetitions for the T, the Y, and the I positions."
+      ],
+      "primary_muscles_en": [
+        "rear delts",
+        "mid-back",
+        "rotator cuff"
+      ],
+      "primary_muscles_pt": [
+        "deltoides posteriores",
+        "meio das costas",
+        "manguito rotador"
+      ]
+    },
+    {
+      "id": "dumbbell-curls",
+      "name_en": "Dumbbell Curls",
+      "name_en_variants": [
+        "Dumbbell Curl"
+      ],
+      "name_pt": "Curl de bíceps com halteres",
+      "pt_aliases": [
+        "Bicep curls",
+        "Rosca de bíceps com halteres",
+        "Flexão de bíceps"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Focus on feeling the biceps work.",
+        "Allow the dumbbells to rotate naturally as you curl."
+      ],
+      "primary_muscles_en": [
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "bíceps"
+      ]
+    },
+    {
+      "id": "rack-pulls",
+      "name_en": "Rack Pulls",
+      "name_pt": "Peso morto parcial no rack",
+      "pt_aliases": [
+        "Rack pulls",
+        "Peso morto no rack"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra",
+      "primary_muscles": [
+        {
+          "en": "back",
+          "pt": "costas"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "traps",
+          "pt": "trapézios"
+        }
+      ],
+      "cues": [
+        "Stand tall with the feet about hip-width apart.",
+        "Send the hips back.",
+        "Drive the hips through and let the glutes and hamstrings stand you up."
+      ],
+      "primary_muscles_en": [
+        "back",
+        "glutes",
+        "hamstrings",
+        "traps"
+      ],
+      "primary_muscles_pt": [
+        "costas",
+        "glúteos",
+        "isquiotibiais",
+        "trapézios"
+      ]
+    },
+    {
+      "id": "tricep-pushdowns",
+      "name_en": "Tricep Pushdowns",
+      "name_en_variants": [
+        "Tricep Pushdowns (optional)"
+      ],
+      "name_pt": "Extensão de tríceps na polia (pushdown)",
+      "pt_aliases": [
+        "Tricep pushdown",
+        "Pushdown de tríceps"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        }
+      ],
+      "cues": [
+        "Brace so the midsection is tight.",
+        "Think about driving the hands toward the floor.",
+        "Keep tension on the triceps through the set."
+      ],
+      "primary_muscles_en": [
+        "triceps"
+      ],
+      "primary_muscles_pt": [
+        "tríceps"
+      ]
+    },
+    {
+      "id": "incline-dumbbell-bench-press",
+      "name_en": "Incline Dumbbell Bench Press",
+      "name_pt": "Supino inclinado com halteres",
+      "pt_aliases": [
+        "Incline dumbbell press"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        }
+      ],
+      "cues": [
+        "Plant the feet, brace the midsection, and lengthen the neck.",
+        "Pin the shoulder blades down and back.",
+        "Press up as if punching the ceiling, elbows at about 45 degrees or a bit wider.",
+        "Set the bench to a low incline, around 30 degrees."
+      ],
+      "primary_muscles_en": [
+        "chest",
+        "shoulders",
+        "triceps"
+      ],
+      "primary_muscles_pt": [
+        "peito",
+        "ombros",
+        "tríceps"
+      ]
+    },
+    {
+      "id": "rope-curls",
+      "name_en": "Rope Curls",
+      "name_pt": "Curl de bíceps com corda na polia",
+      "pt_aliases": [
+        "Rope curl",
+        "Rosca com corda"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Lengthen through the body with the head reaching long.",
+        "Curl until the hands come up toward the shoulders.",
+        "A little shoulder movement is acceptable."
+      ],
+      "primary_muscles_en": [
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "bíceps"
+      ]
+    },
+    {
+      "id": "neutral-grip-seated-row",
+      "name_en": "Neutral Grip Seated Row",
+      "name_pt": "Remada sentada com pega neutra",
+      "pt_aliases": [
+        "Seated row (pega neutra)",
+        "Remada com pega neutra"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Sit tall with the head reaching long.",
+        "Start with the arms reaching forward.",
+        "Pull the load with the back muscles, not just the arms.",
+        "At the finish, squeeze the shoulder blades as if crushing something between them."
+      ],
+      "primary_muscles_en": [
+        "mid-back",
+        "lats",
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "meio das costas",
+        "dorsais",
+        "bíceps"
+      ]
+    },
+    {
+      "id": "raised-deadlift",
+      "name_en": "Raised Deadlift",
+      "name_pt": "Peso morto elevado",
+      "pt_aliases": [
+        "Block deadlift",
+        "Peso morto a partir de blocos",
+        "Raised deadlift"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra",
+      "primary_muscles": [
+        {
+          "en": "back",
+          "pt": "costas"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        }
+      ],
+      "cues": [
+        "Stand tall, as if the top of your head is reaching toward the ceiling.",
+        "Keep that length as you send your hips back.",
+        "Drive the hips through so the glutes and hamstrings spring you and the bar upright.",
+        "Let the load settle for a moment before the next repetition."
+      ],
+      "primary_muscles_en": [
+        "back",
+        "glutes",
+        "hamstrings",
+        "quads"
+      ],
+      "primary_muscles_pt": [
+        "costas",
+        "glúteos",
+        "isquiotibiais",
+        "quadricípites"
+      ]
+    },
+    {
+      "id": "offset-goblet-squat",
+      "name_en": "Offset Goblet Squat",
+      "name_pt": "Agachamento goblet assimétrico",
+      "pt_aliases": [
+        "Offset goblet squat"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Curl the dumbbell up into the front rack.",
+        "Hips forward and head high; sit the hips down, then stand up sharply.",
+        "The free hand can reach forward to help you balance.",
+        "Finish all the repetitions on one side, then switch."
+      ],
+      "primary_muscles_en": [
+        "quads",
+        "glutes",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "quadricípites",
+        "glúteos",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "swiss-ball-rollouts",
+      "name_en": "Swiss Ball Rollouts",
+      "name_pt": "Rollouts na bola suíça",
+      "pt_aliases": [
+        "Swiss ball rollout",
+        "Extensões na bola suíça"
+      ],
+      "equipment": "other",
+      "equipment_pt": "bola suíça",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "abs",
+          "pt": "abdominais"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        }
+      ],
+      "cues": [
+        "Place the hands low on the ball, hips forward, head high.",
+        "Reach out, then pull yourself back up.",
+        "Keep a straight line through the body the whole time.",
+        "If it is too hard, try a larger ball."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "abs",
+        "shoulders"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "abdominais",
+        "ombros"
+      ]
+    },
+    {
+      "id": "chin-ups",
+      "name_en": "Chin-Ups",
+      "name_pt": "Elevações com pega supinada (chin-ups)",
+      "pt_aliases": [
+        "Chin-ups",
+        "Elevações na barra (pega supinada)"
+      ],
+      "equipment": "bodyweight",
+      "equipment_pt": "peso corporal",
+      "primary_muscles": [
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        },
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        }
+      ],
+      "cues": [
+        "Use an underhand (supinated) grip at about shoulder width.",
+        "Hips forward, head high.",
+        "Pull up and bring the chest toward the bar.",
+        "Avoid arching the lower back; keep the midsection braced."
+      ],
+      "primary_muscles_en": [
+        "lats",
+        "biceps",
+        "mid-back"
+      ],
+      "primary_muscles_pt": [
+        "dorsais",
+        "bíceps",
+        "meio das costas"
+      ]
+    },
+    {
+      "id": "front-squat",
+      "name_en": "Front Squat",
+      "name_en_variants": [
+        "Front Squats"
+      ],
+      "name_pt": "Agachamento frontal",
+      "pt_aliases": [
+        "Front squat"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra",
+      "primary_muscles": [
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Hands just outside the shoulders; lift the shoulders forward and up to make a shelf for the bar.",
+        "Unrack and step back, feet slightly wider than the shoulders.",
+        "Turn the toes out a little, brace, and sit down."
+      ],
+      "primary_muscles_en": [
+        "quads",
+        "glutes",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "quadricípites",
+        "glúteos",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "barbell-romanian-deadlift",
+      "name_en": "Barbell Romanian Deadlift",
+      "name_pt": "Peso morto romeno com barra",
+      "pt_aliases": [
+        "RDL",
+        "Romanian deadlift"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra",
+      "primary_muscles": [
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "back",
+          "pt": "costas"
+        }
+      ],
+      "cues": [
+        "Stand tall with the feet about hip-width apart.",
+        "Send the hips back.",
+        "Lower the bar to about knee height.",
+        "Stand up by springing the glutes and hamstrings."
+      ],
+      "primary_muscles_en": [
+        "hamstrings",
+        "glutes",
+        "back"
+      ],
+      "primary_muscles_pt": [
+        "isquiotibiais",
+        "glúteos",
+        "costas"
+      ]
+    },
+    {
+      "id": "half-kneeling-pallof-press",
+      "name_en": "1/2 Kneeling Pallof Press",
+      "name_pt": "Pallof press a meio joelho",
+      "pt_aliases": [
+        "Pallof press",
+        "Pallof press ajoelhado"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "obliques",
+          "pt": "oblíquos"
+        }
+      ],
+      "notes": "Alternative listed on the sheet: same exercise but using a wall if no cable is available.",
+      "cues": [
+        "Set up in a 90/90 half-kneeling stance with the front leg on the outside.",
+        "Hips forward, head high.",
+        "Hold the handle with the inside hand and place the other hand on top.",
+        "Press the handle straight out as far as you can and hold for each breath-rep."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "obliques"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "oblíquos"
+      ]
+    },
+    {
+      "id": "racked-carry",
+      "name_en": "Racked Carry",
+      "name_pt": "Transporte em rack",
+      "pt_aliases": [
+        "Racked carry",
+        "Farmer walk em rack"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        }
+      ],
+      "cues": [
+        "Clean or swing the weight into the front rack.",
+        "Keep the shoulders up and square; do not slump.",
+        "Brace the midsection, then walk.",
+        "If the gym is crowded, you may hold the position in place instead of walking."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "shoulders",
+        "quads",
+        "glutes"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "ombros",
+        "quadricípites",
+        "glúteos"
+      ]
+    },
+    {
+      "id": "one-arm-incline-db-bench-press",
+      "name_en": "1-Arm Incline DB Bench Press",
+      "name_pt": "Supino inclinado unilateral com haltere",
+      "pt_aliases": [
+        "Single-arm incline press"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Plant the feet, brace the midsection, and lengthen the neck.",
+        "Keep the torso stable and straight as you press up.",
+        "Complete the work, then repeat with the other arm.",
+        "Set the bench to a low incline, around 30 degrees."
+      ],
+      "primary_muscles_en": [
+        "chest",
+        "shoulders",
+        "triceps",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "peito",
+        "ombros",
+        "tríceps",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "suitcase-romanian-deadlift",
+      "name_en": "Suitcase Romanian Deadlift",
+      "name_pt": "Peso morto romeno tipo mala (unilateral)",
+      "pt_aliases": [
+        "Suitcase RDL",
+        "RDL unilateral"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "back",
+          "pt": "costas"
+        }
+      ],
+      "cues": [
+        "Stand tall with the feet about hip-width apart.",
+        "Send the hips back and lower the dumbbell to about the knee.",
+        "Stand up by springing the glutes and hamstrings.",
+        "Complete the repetitions, then switch the weight to the other side."
+      ],
+      "primary_muscles_en": [
+        "hamstrings",
+        "glutes",
+        "core",
+        "back"
+      ],
+      "primary_muscles_pt": [
+        "isquiotibiais",
+        "glúteos",
+        "core (zona média)",
+        "costas"
+      ]
+    },
+    {
+      "id": "overhand-seated-row",
+      "name_en": "Overhand Seated Row",
+      "name_pt": "Remada sentada com pega pronada",
+      "pt_aliases": [
+        "Seated row (pega pronada)"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Sit tall with the head reaching long.",
+        "Start with the arms reaching forward.",
+        "Pull the load with the back muscles, not just the arms.",
+        "At the finish, squeeze the shoulder blades as if crushing something between them."
+      ],
+      "primary_muscles_en": [
+        "mid-back",
+        "lats",
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "meio das costas",
+        "dorsais",
+        "bíceps"
+      ]
+    },
+    {
+      "id": "close-grip-push-ups",
+      "name_en": "Close-Grip Push-Ups",
+      "name_en_variants": [
+        "Close Grip Push-Ups (raised)"
+      ],
+      "name_pt": "Flexões com pega fechada",
+      "pt_aliases": [
+        "Flexões diamante",
+        "Diamond push-ups",
+        "Close-grip push-ups"
+      ],
+      "equipment": "bodyweight",
+      "equipment_pt": "peso corporal",
+      "primary_muscles": [
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        },
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        }
+      ],
+      "cues": [
+        "Place the hands close together, forming a diamond shape.",
+        "Hold a plank: head long, hips forward.",
+        "Press yourself away from the floor or surface.",
+        "If it is too easy on a raised surface, do them from the floor."
+      ],
+      "primary_muscles_en": [
+        "triceps",
+        "chest",
+        "shoulders"
+      ],
+      "primary_muscles_pt": [
+        "tríceps",
+        "peito",
+        "ombros"
+      ]
+    },
+    {
+      "id": "deadlift",
+      "name_en": "Deadlift",
+      "name_pt": "Peso morto",
+      "pt_aliases": [
+        "Deadlift",
+        "Peso morto convencional"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra",
+      "primary_muscles": [
+        {
+          "en": "back",
+          "pt": "costas"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        }
+      ],
+      "cues": [
+        "Stand tall, as if the top of your head is reaching toward the ceiling.",
+        "Keep that length as you send your hips back.",
+        "Drive the hips through so the glutes and hamstrings spring you and the bar upright.",
+        "Let the load settle for a moment before the next repetition."
+      ],
+      "primary_muscles_en": [
+        "back",
+        "glutes",
+        "hamstrings",
+        "quads"
+      ],
+      "primary_muscles_pt": [
+        "costas",
+        "glúteos",
+        "isquiotibiais",
+        "quadricípites"
+      ]
+    },
+    {
+      "id": "ez-bar-curls",
+      "name_en": "EZ Bar Curls",
+      "name_pt": "Curl de bíceps com barra EZ",
+      "pt_aliases": [
+        "EZ bar curl",
+        "Rosca com barra EZ"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra EZ",
+      "primary_muscles": [
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Grip the outer bends of the EZ bar.",
+        "Set a tall rack posture: hips forward, head high.",
+        "Curl the bar up toward the shoulders.",
+        "The elbows may travel slightly up and forward."
+      ],
+      "primary_muscles_en": [
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "bíceps"
+      ]
+    },
+    {
+      "id": "alternating-dumbbell-bench-press",
+      "name_en": "Alternating Dumbbell Bench Press",
+      "name_pt": "Supino alternado com halteres",
+      "pt_aliases": [
+        "Alternating dumbbell press"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Plant the feet, brace the midsection, and lengthen the neck.",
+        "Keep the torso stable and straight as you press each arm.",
+        "Complete the listed repetitions with both arms."
+      ],
+      "primary_muscles_en": [
+        "chest",
+        "triceps",
+        "shoulders",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "peito",
+        "tríceps",
+        "ombros",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "bent-over-dumbbell-row",
+      "name_en": "Bent Over Dumbbell Row",
+      "name_pt": "Remada curvada com haltere",
+      "pt_aliases": [
+        "Bent-over row",
+        "Remada inclinada com haltere"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Stand about shoulder-width, hips forward, head high.",
+        "Send the hips down and back with the arms reaching forward.",
+        "Pick up the weight from the floor in a position similar to a Romanian deadlift.",
+        "Row so the thumb travels up toward the armpit."
+      ],
+      "primary_muscles_en": [
+        "lats",
+        "mid-back",
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "dorsais",
+        "meio das costas",
+        "bíceps"
+      ]
+    },
+    {
+      "id": "ab-wheel-rollouts",
+      "name_en": "Ab Wheel Rollouts",
+      "name_pt": "Rollouts com roda abdominal",
+      "pt_aliases": [
+        "Ab wheel",
+        "Roda abdominal"
+      ],
+      "equipment": "other",
+      "equipment_pt": "roda abdominal",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "abs",
+          "pt": "abdominais"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        }
+      ],
+      "cues": [
+        "Take a double overhand grip and keep the wrists straight.",
+        "Hips forward, head high.",
+        "As you roll out, reach the shoulders forward and out.",
+        "Keep the midsection braced so the lower back does not sag."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "abs",
+        "shoulders"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "abdominais",
+        "ombros"
+      ]
+    },
+    {
+      "id": "bench-press",
+      "name_en": "Bench Press",
+      "name_pt": "Supino com barra",
+      "pt_aliases": [
+        "Bench press",
+        "Supino horizontal",
+        "Supino reto"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra",
+      "primary_muscles": [
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        }
+      ],
+      "cues": [
+        "Lengthen through the body, head reaching long, feet planted.",
+        "Brace the midsection, pin the shoulder blades down and back, and keep the wrists straight.",
+        "Lower the bar with the elbows at about 45 degrees from the torso."
+      ],
+      "primary_muscles_en": [
+        "chest",
+        "triceps",
+        "shoulders"
+      ],
+      "primary_muscles_pt": [
+        "peito",
+        "tríceps",
+        "ombros"
+      ]
+    },
+    {
+      "id": "half-kneeling-landmine-press",
+      "name_en": "1/2 Kneeling Landmine Press",
+      "name_pt": "Landmine press a meio joelho",
+      "pt_aliases": [
+        "Landmine press",
+        "Pressão no landmine ajoelhado"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra (landmine)",
+      "primary_muscles": [
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Set up in a 90/90 half-kneeling stance with the front leg on the outside.",
+        "Bring the bar to the shoulder, hips forward, head high.",
+        "Press the weight up.",
+        "Repeat on the other side."
+      ],
+      "primary_muscles_en": [
+        "shoulders",
+        "chest",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "ombros",
+        "peito",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "one-arm-farmer-carry",
+      "name_en": "1-Arm Farmer Carry",
+      "name_pt": "Passeio do agricultor unilateral",
+      "pt_aliases": [
+        "Suitcase carry",
+        "Farmer walk unilateral"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "obliques",
+          "pt": "oblíquos"
+        },
+        {
+          "en": "traps",
+          "pt": "trapézios"
+        },
+        {
+          "en": "forearms",
+          "pt": "antebraços"
+        }
+      ],
+      "cues": [
+        "Hips forward, head high.",
+        "Stay tall for the whole carry.",
+        "Brace the midsection, then walk.",
+        "The other side is part of the same set; switch hands and continue."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "obliques",
+        "traps",
+        "forearms"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "oblíquos",
+        "trapézios",
+        "antebraços"
+      ]
+    },
+    {
+      "id": "half-kneeling-dumbbell-press",
+      "name_en": "1/2 Kneeling Dumbbell Press",
+      "name_en_variants": [
+        "1/2 Kneeling 1-Arm DB Press"
+      ],
+      "name_pt": "Desenvolvimento com haltere a meio joelho",
+      "pt_aliases": [
+        "Half-kneeling press",
+        "Press com haltere ajoelhado"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Set up in a 90/90 half-kneeling stance with the front leg on the outside.",
+        "Lift the dumbbell into the front rack.",
+        "Hips forward and head high, then press.",
+        "Let the arm rotate naturally; then repeat on the other side."
+      ],
+      "primary_muscles_en": [
+        "shoulders",
+        "triceps",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "ombros",
+        "tríceps",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "cross-body-carry",
+      "name_en": "Cross-body Carry",
+      "name_pt": "Transporte cruzado",
+      "pt_aliases": [
+        "Cross-body carry"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "obliques",
+          "pt": "oblíquos"
+        }
+      ],
+      "cues": [
+        "Heavier weight in the lower hand, lighter weight in the front-rack hand.",
+        "Hips forward and head high, then walk.",
+        "Switch sides and repeat so both sides are trained."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "shoulders",
+        "obliques"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "ombros",
+        "oblíquos"
+      ]
+    },
+    {
+      "id": "swiss-ball-leg-curls",
+      "name_en": "Swiss Ball Leg Curls",
+      "name_pt": "Curl de isquiotibiais na bola suíça",
+      "pt_aliases": [
+        "Hamstring curl na swiss ball",
+        "Leg curl na bola"
+      ],
+      "equipment": "other",
+      "equipment_pt": "bola suíça",
+      "primary_muscles": [
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        }
+      ],
+      "cues": [
+        "Lie on your back with the feet on the middle of the Swiss ball.",
+        "Set a tall, braced position with the hips forward and the head long; the hips will lift off the floor.",
+        "Curl the heels toward the hips."
+      ],
+      "primary_muscles_en": [
+        "hamstrings",
+        "glutes"
+      ],
+      "primary_muscles_pt": [
+        "isquiotibiais",
+        "glúteos"
+      ]
+    },
+    {
+      "id": "back-squats",
+      "name_en": "Back Squats",
+      "name_pt": "Agachamento com barra nas costas",
+      "pt_aliases": [
+        "Back squat",
+        "Agachamento atrás",
+        "Agachamento"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra",
+      "primary_muscles": [
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "back",
+          "pt": "costas"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Hands just outside the shoulders; step under so the bar sits on the traps, then stand and step back.",
+        "Feet slightly wider than the shoulders, toes turned out a little.",
+        "Brace in a tall, ready posture and sit the hips down."
+      ],
+      "primary_muscles_en": [
+        "quads",
+        "glutes",
+        "back",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "quadricípites",
+        "glúteos",
+        "costas",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "underhand-seated-row",
+      "name_en": "Underhand Seated Row",
+      "name_pt": "Remada sentada com pega supinada",
+      "pt_aliases": [
+        "Seated row (pega supinada)"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "cues": [
+        "Reach the arms forward and take hold of the bar.",
+        "Sit tall, lengthen the neck, and brace so the ribs stay down.",
+        "Row the load back."
+      ],
+      "primary_muscles_en": [
+        "lats",
+        "mid-back",
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "dorsais",
+        "meio das costas",
+        "bíceps"
+      ]
+    },
+    {
+      "id": "dumbbell-kettlebell-swing",
+      "name_en": "Dumbbell/Kettlebell Swing",
+      "name_pt": "Swing com haltere ou kettlebell",
+      "pt_aliases": [
+        "Kettlebell swing",
+        "Swing"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres ou kettlebell",
+      "primary_muscles": [
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Feet slightly wider than the shoulders, toes turned out a little.",
+        "Hinge like a Romanian deadlift, but performed quickly.",
+        "From a braced stance, sit the hips back, hike the weight, then snap the hips through into a tall finish."
+      ],
+      "primary_muscles_en": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "glúteos",
+        "isquiotibiais",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "standing-landmine-press",
+      "name_en": "Standing Landmine Press",
+      "name_pt": "Landmine press de pé",
+      "pt_aliases": [
+        "Landmine press",
+        "Pressão no landmine"
+      ],
+      "equipment": "barbell",
+      "equipment_pt": "barra (landmine)",
+      "primary_muscles": [
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "chest",
+          "pt": "peito"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "cues": [
+        "Pick the weight up and stay close to the bar.",
+        "Hips forward, head high.",
+        "Brace, then press up and slightly forward."
+      ],
+      "primary_muscles_en": [
+        "shoulders",
+        "chest",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "ombros",
+        "peito",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "standing-external-rotation",
+      "name_en": "Standing External Rotation",
+      "name_pt": "Rotação externa de ombro de pé",
+      "pt_aliases": [
+        "External rotation",
+        "Rotação externa"
+      ],
+      "equipment": "cable",
+      "equipment_pt": "polia",
+      "primary_muscles": [
+        {
+          "en": "rotator cuff",
+          "pt": "manguito rotador"
+        },
+        {
+          "en": "rear delts",
+          "pt": "deltoides posteriores"
+        }
+      ],
+      "cues": [
+        "Start with a light load.",
+        "Stay in a range of motion that feels comfortable.",
+        "The upper arm should rotate like a door swinging on its hinge.",
+        "Keep the effort smooth and controlled."
+      ],
+      "primary_muscles_en": [
+        "rotator cuff",
+        "rear delts"
+      ],
+      "primary_muscles_pt": [
+        "manguito rotador",
+        "deltoides posteriores"
+      ]
+    },
+    {
+      "id": "dumbbell-deadlift",
+      "name_en": "Dumbbell Deadlift",
+      "name_pt": "Peso morto com halteres",
+      "pt_aliases": [
+        "Dumbbell deadlift"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "back",
+          "pt": "costas"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Stand tall, as if the top of your head is reaching toward the ceiling.",
+        "Keep that length as you send your hips back.",
+        "Drive the hips through so the glutes and hamstrings stand you up.",
+        "Let the load settle for a moment before the next repetition."
+      ],
+      "primary_muscles_en": [
+        "back",
+        "glutes",
+        "hamstrings",
+        "quads"
+      ],
+      "primary_muscles_pt": [
+        "costas",
+        "glúteos",
+        "isquiotibiais",
+        "quadricípites"
+      ]
+    },
+    {
+      "id": "hand-walkouts",
+      "name_en": "Hand Walkouts",
+      "name_pt": "Walkouts com as mãos",
+      "pt_aliases": [
+        "Hand walkouts",
+        "Andarinhas com as mãos"
+      ],
+      "equipment": "bodyweight",
+      "equipment_pt": "peso corporal",
+      "primary_muscles": [
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        },
+        {
+          "en": "abs",
+          "pt": "abdominais"
+        },
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "From a tall plank or standing fold, walk the hands out, then walk them back.",
+        "Keep a straight line through the body and do not let the lower back sag.",
+        "Hips stay controlled; the midsection stays braced."
+      ],
+      "primary_muscles_en": [
+        "core",
+        "abs",
+        "shoulders"
+      ],
+      "primary_muscles_pt": [
+        "core (zona média)",
+        "abdominais",
+        "ombros"
+      ]
+    },
+    {
+      "id": "chest-supported-supinated-db-row",
+      "name_en": "Chest Supported Supinated DB Row",
+      "name_pt": "Remada no banco com peito apoiado e pega supinada",
+      "pt_aliases": [
+        "Chest-supported row",
+        "Remada no banco inclinado"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "lats",
+          "pt": "dorsais"
+        },
+        {
+          "en": "mid-back",
+          "pt": "meio das costas"
+        },
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Lie chest-down on an incline bench with an underhand grip on the dumbbells.",
+        "Row the weights toward the body, leading with the thumbs toward the armpits.",
+        "Keep the chest on the bench and the neck long."
+      ],
+      "primary_muscles_en": [
+        "lats",
+        "mid-back",
+        "biceps"
+      ],
+      "primary_muscles_pt": [
+        "dorsais",
+        "meio das costas",
+        "bíceps"
+      ]
+    },
+    {
+      "id": "double-dumbbell-front-squat",
+      "name_en": "Double Dumbbell Front Squat",
+      "name_pt": "Agachamento frontal com dois halteres",
+      "pt_aliases": [
+        "Dumbbell front squat"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "quads",
+          "pt": "quadricípites"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Hold a dumbbell at each shoulder in the front rack.",
+        "Stay tall, brace, and squat with the feet slightly wider than the shoulders.",
+        "Turn the toes out a little and sit down under control."
+      ],
+      "primary_muscles_en": [
+        "quads",
+        "glutes",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "quadricípites",
+        "glúteos",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "dumbbell-tricep-kickback",
+      "name_en": "Dumbbell Tricep Kickback",
+      "name_pt": "Kickback de tríceps com haltere",
+      "pt_aliases": [
+        "Tricep kickback",
+        "Extensão de tríceps kickback"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Brace the midsection and keep the upper arm still.",
+        "Extend the elbow until the arm is straight, keeping tension on the triceps."
+      ],
+      "primary_muscles_en": [
+        "triceps"
+      ],
+      "primary_muscles_pt": [
+        "tríceps"
+      ]
+    },
+    {
+      "id": "nordic-ham-curls",
+      "name_en": "Nordic Ham Curls",
+      "name_pt": "Curl nórdico de isquiotibiais",
+      "pt_aliases": [
+        "Nordic curl",
+        "Nordic hamstring curl"
+      ],
+      "equipment": "bodyweight",
+      "equipment_pt": "peso corporal",
+      "primary_muscles": [
+        {
+          "en": "hamstrings",
+          "pt": "isquiotibiais"
+        },
+        {
+          "en": "glutes",
+          "pt": "glúteos"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Anchor the lower legs and lower the torso forward under control, then pull back with the hamstrings.",
+        "Keep the hips extended and the body in a straight line from knees to shoulders."
+      ],
+      "primary_muscles_en": [
+        "hamstrings",
+        "glutes"
+      ],
+      "primary_muscles_pt": [
+        "isquiotibiais",
+        "glúteos"
+      ]
+    },
+    {
+      "id": "dumbbell-skull-crusher",
+      "name_en": "Dumbbell Skull Crusher",
+      "name_pt": "Skull crusher com halteres",
+      "pt_aliases": [
+        "Skull crusher",
+        "Extensão de tríceps deitado"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Lying on a bench, keep the upper arms fairly still and bend the elbows to lower the dumbbells.",
+        "Extend the elbows to press the load back up, keeping tension on the triceps."
+      ],
+      "primary_muscles_en": [
+        "triceps"
+      ],
+      "primary_muscles_pt": [
+        "tríceps"
+      ]
+    },
+    {
+      "id": "dumbbell-hammer-curls",
+      "name_en": "Dumbbell Hammer Curls",
+      "name_pt": "Curl martelo com halteres",
+      "pt_aliases": [
+        "Hammer curls",
+        "Rosca martelo"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "biceps",
+          "pt": "bíceps"
+        },
+        {
+          "en": "forearms",
+          "pt": "antebraços"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Curl with a neutral (thumbs-up) grip.",
+        "Keep the torso tall and control both the lifting and lowering phases."
+      ],
+      "primary_muscles_en": [
+        "biceps",
+        "forearms"
+      ],
+      "primary_muscles_pt": [
+        "bíceps",
+        "antebraços"
+      ]
+    },
+    {
+      "id": "standing-one-arm-db-shoulder-press",
+      "name_en": "Standing 1-Arm DB Shoulder Press",
+      "name_pt": "Desenvolvimento de ombros unilateral com haltere (de pé)",
+      "pt_aliases": [
+        "Single-arm shoulder press",
+        "Desenvolvimento com haltere de pé"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "shoulders",
+          "pt": "ombros"
+        },
+        {
+          "en": "triceps",
+          "pt": "tríceps"
+        },
+        {
+          "en": "core",
+          "pt": "core (zona média)"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Stand tall, brace, and press one dumbbell overhead.",
+        "Keep the ribs down and the body stable; then switch arms."
+      ],
+      "primary_muscles_en": [
+        "shoulders",
+        "triceps",
+        "core"
+      ],
+      "primary_muscles_pt": [
+        "ombros",
+        "tríceps",
+        "core (zona média)"
+      ]
+    },
+    {
+      "id": "side-lying-external-rotation",
+      "name_en": "Side Lying External Rotation",
+      "name_pt": "Rotação externa de ombro deitado de lado",
+      "pt_aliases": [
+        "Side-lying external rotation",
+        "Rotação externa deitado"
+      ],
+      "equipment": "dumbbell",
+      "equipment_pt": "halteres",
+      "primary_muscles": [
+        {
+          "en": "rotator cuff",
+          "pt": "manguito rotador"
+        },
+        {
+          "en": "rear delts",
+          "pt": "deltoides posteriores"
+        }
+      ],
+      "appears_as": "alternative",
+      "cues": [
+        "Lie on your side and rotate the forearm up, keeping the upper arm close to the body.",
+        "Use a light load and stay in a comfortable range, like a door hinge at the shoulder."
+      ],
+      "primary_muscles_en": [
+        "rotator cuff",
+        "rear delts"
+      ],
+      "primary_muscles_pt": [
+        "manguito rotador",
+        "deltoides posteriores"
+      ]
+    }
+  ]
+}
