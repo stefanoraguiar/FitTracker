@@ -4,6 +4,7 @@ import { displayNames, getCatalog, restFor } from "../lib/program";
 import { displayToKg, formatWhen, kgToDisplay, stepWeight } from "../lib/units";
 import { useStore } from "../state/store";
 import type { ProgramExercise, SlotMeta, Unit } from "../types";
+import { ExerciseVisual } from "./ExerciseVisual";
 import { CheckIcon } from "./Icons";
 
 function WeightField({
@@ -78,6 +79,7 @@ export function ExerciseCard({
   return (
     <article className={["card", exercise.optional ? "optional" : "", usingAlt ? "using-alt" : ""].filter(Boolean).join(" ")}>
       <header className="card-head">
+        <ExerciseVisual exerciseId={activeId} name={names.primary} lang={state.lang} />
         <div className="card-titles">
           <h3 data-testid="exercise-name">{names.primary}</h3>
           <p className="secondary-name">{names.secondary}</p>
