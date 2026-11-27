@@ -1,10 +1,11 @@
 import { useRef, useState } from "react";
+import { playStartTick, unlockAudio } from "../lib/beep";
 import { exportPayload } from "../lib/storage";
 import { useStore } from "../state/store";
 import { RuleList } from "./Rules";
 
 export function SettingsView() {
-  const { state, setStraightSets, repeatPhase0, importState, reset } = useStore();
+  const { state, setStraightSets, setSound, repeatPhase0, importState, reset } = useStore();
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState("");
   const [repeatConfirm, setRepeatConfirm] = useState(false);
@@ -59,6 +60,26 @@ export function SettingsView() {
         <p className="hint">
           Circuits pair the lifts in a block. If the gym is busy, switch to straight sets and the rest timer uses
           twice the listed rest.
+        </p>
+        <button
+          type="button"
+          className={state.sound ? "mode on" : "mode"}
+          aria-pressed={state.sound}
+          data-testid="sound-toggle"
+          onClick={() => {
+            const next = !state.sound;
+            setSound(next);
+            if (next) {
+              unlockAudio();
+              playStartTick();
+            }
+          }}
+        >
+          {state.sound ? "Timer sound on" : "Timer sound off"}
+        </button>
+        <p className="hint">
+          A soft tick when rest starts, then a chime when it ends. The phone vibrates at the end when it can. iPhone
+          stays quiet while the screen is locked and plays the chime when you open the app again.
         </p>
       </section>
 

@@ -5,7 +5,8 @@ import { ProgramView } from "./components/ProgramView";
 import { SettingsView } from "./components/SettingsView";
 import { TimerBar, type RestState } from "./components/TimerBar";
 import { FinishBar, WorkoutControls, WorkoutView } from "./components/WorkoutView";
-import { beep, primeAudio } from "./lib/beep";
+import { playEndChime, playStartTick, unlockAudio, vibrateRestDone } from "./lib/beep";
+import { loadRest, saveRest } from "./lib/restClock";
 import { parseHash, routeKey, routeToHash, todayRoute } from "./lib/routes";
 import { useStore } from "./state/store";
 import type { DayRef, Route } from "./types";
@@ -41,9 +42,21 @@ function TopBar() {
 export function App() {
   const { state, saveError } = useStore();
   const [route, setRoute] = useState<Route>(() => parseHash(window.location.hash) ?? todayRoute(state.completed));
-  const [rest, setRest] = useState<RestState | null>(null);
+  const [rest, setRest] = useState<RestState | null>(() => {
+    const saved = loadRest();
+    if (!saved) return null;
+    return {
+      endsAt: saved.endsAt,
+      total: saved.total,
+      phase: Date.now() >= saved.endsAt ? "done" : "run",
+    };
+  });
   const [now, setNow] = useState(() => Date.now());
-  const beeped = useRef<number | null>(null);
+  const alertedRef = useRef<number | null>(loadRest()?.alerted ? loadRest()?.endsAt ?? null : null);
+  const alertingRef = useRef<number | null>(null);
+  const vibratedRef = useRef<number | null>(null);
+  const soundRef = useRef(state.sound);
+  soundRef.current = state.sound;
   const dockRef = useRef<HTMLElement>(null);
   const [dockHeight, setDockHeight] = useState(140);
 
@@ -90,41 +103,121 @@ export function App() {
     return () => observer.disconnect();
   }, [route.name, rest?.phase]);
 
-  useEffect(() => {
-    if (!rest || rest.phase !== "run") return;
-    const id = window.setInterval(() => {
-      const time = Date.now();
-      if (time >= rest.endsAt) {
-        if (beeped.current !== rest.endsAt) {
-          beeped.current = rest.endsAt;
-          beep();
-        }
-        setRest((current) =>
-          current && current.endsAt === rest.endsAt ? { ...current, phase: "done" } : current,
-        );
-      } else {
-        setNow(time);
-      }
-    }, 200);
-    return () => window.clearInterval(id);
-  }, [rest]);
-
-  const startRest = useCallback((seconds: number) => {
-    if (seconds <= 0) return;
-    primeAudio();
-    beeped.current = null;
-    setNow(Date.now());
-    setRest({ endsAt: Date.now() + seconds * 1000, total: seconds, phase: "run" });
+  const alertFor = useCallback(async (endsAt: number) => {
+    if (alertedRef.current === endsAt || alertingRef.current === endsAt) return;
+    if (document.hidden) return;
+    alertingRef.current = endsAt;
+    if (vibratedRef.current !== endsAt) {
+      vibratedRef.current = endsAt;
+      vibrateRestDone();
+    }
+    const mark = () => {
+      alertedRef.current = endsAt;
+      const saved = loadRest();
+      if (saved && saved.endsAt === endsAt) saveRest({ ...saved, alerted: true });
+    };
+    if (!soundRef.current) {
+      mark();
+      return;
+    }
+    const played = await playEndChime();
+    if (!played) {
+      alertingRef.current = null;
+      return;
+    }
+    mark();
   }, []);
 
+  useEffect(() => {
+    if (!rest) {
+      saveRest(null);
+      return;
+    }
+    saveRest({
+      endsAt: rest.endsAt,
+      total: rest.total,
+      alerted: alertedRef.current === rest.endsAt,
+    });
+  }, [rest]);
+
+  useEffect(() => {
+    if (!rest || rest.phase !== "run") return;
+    const tick = () => {
+      const time = Date.now();
+      setNow(time);
+      if (time < rest.endsAt) return;
+      setRest((current) =>
+        current && current.endsAt === rest.endsAt && current.phase === "run"
+          ? { ...current, phase: "done" }
+          : current,
+      );
+      if (!document.hidden) void alertFor(rest.endsAt);
+    };
+    tick();
+    const id = window.setInterval(tick, 250);
+    return () => window.clearInterval(id);
+  }, [rest, alertFor]);
+
+  useEffect(() => {
+    const onReturn = () => {
+      setNow(Date.now());
+      const saved = loadRest();
+      if (!saved || document.hidden) return;
+      if (Date.now() < saved.endsAt) {
+        setRest({ endsAt: saved.endsAt, total: saved.total, phase: "run" });
+        return;
+      }
+      setRest({ endsAt: saved.endsAt, total: saved.total, phase: "done" });
+      if (!saved.alerted) void alertFor(saved.endsAt);
+    };
+    const onTap = () => {
+      const saved = loadRest();
+      if (!saved || saved.alerted || Date.now() < saved.endsAt) return;
+      unlockAudio();
+      void alertFor(saved.endsAt);
+    };
+    document.addEventListener("visibilitychange", onReturn);
+    window.addEventListener("pageshow", onReturn);
+    window.addEventListener("focus", onReturn);
+    window.addEventListener("pointerdown", onTap);
+    onReturn();
+    return () => {
+      document.removeEventListener("visibilitychange", onReturn);
+      window.removeEventListener("pageshow", onReturn);
+      window.removeEventListener("focus", onReturn);
+      window.removeEventListener("pointerdown", onTap);
+    };
+  }, [alertFor]);
+
+  const startRest = (seconds: number) => {
+    if (seconds <= 0) return;
+    unlockAudio();
+    if (soundRef.current) playStartTick();
+    alertedRef.current = null;
+    alertingRef.current = null;
+    vibratedRef.current = null;
+    setNow(Date.now());
+    setRest({ endsAt: Date.now() + seconds * 1000, total: seconds, phase: "run" });
+  };
+
   const extendRest = () => {
-    primeAudio();
-    beeped.current = null;
     setRest((current) => {
       if (!current) return current;
       const base = current.phase === "done" ? Date.now() : current.endsAt;
-      return { endsAt: base + 30_000, total: current.phase === "done" ? 30 : current.total + 30, phase: "run" };
+      const endsAt = base + 30_000;
+      const total = current.phase === "done" ? 30 : current.total + 30;
+      unlockAudio();
+      if (soundRef.current) playStartTick();
+      alertedRef.current = null;
+      alertingRef.current = null;
+      vibratedRef.current = null;
+      return { endsAt, total, phase: "run" };
     });
+  };
+
+  const clearRest = () => {
+    alertedRef.current = null;
+    setRest(null);
   };
 
   const openDay = (day: DayRef) => go({ name: "workout", ...day });
@@ -157,7 +250,7 @@ export function App() {
 
       <footer className="dock" ref={dockRef}>
         {rest ? (
-          <TimerBar rest={rest} now={now} onAdd={extendRest} onSkip={() => setRest(null)} onDismiss={() => setRest(null)} />
+          <TimerBar rest={rest} now={now} onAdd={extendRest} onSkip={clearRest} onDismiss={clearRest} />
         ) : null}
         {route.name === "workout" ? <FinishBar phase={route.phase} week={route.week} day={route.day} /> : null}
         <nav className="tabbar" aria-label="Sections">
