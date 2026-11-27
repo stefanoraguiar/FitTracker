@@ -67,10 +67,21 @@ If the repository name is different, change `base` in `vite.config.ts` (the mani
 
 Pages for a public repository is free. The workflow needs the default `pages` environment GitHub creates the first time it runs.
 
+## Movement pictures
+
+Each exercise card has a thumbnail. It flips between the start and end of the movement. Tap it for a larger view with Start, End, and Pause. Alt text follows the EN/PT name switch.
+
+Photos come from [yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db) (built on [wrkout/exercises.json](https://github.com/wrkout/exercises.json)), released under [The Unlicense](https://unlicense.org/). Resized WebP files live in `public/exercises/`. The source exercise name, link, and license are in `src/data/visuals.ts` and under the large image. Nothing is taken from the Bony to Beastly book.
+
+Where that dataset has no honest match, the card shows a FitTracker diagram instead of a wrong photo. Those are original drawings in the app, not third-party images.
+
+The service worker precaches the WebP files with the rest of the app, so the pictures are available offline after the first load.
+
 ## Data and privacy
 
 - `src/data/program.json` — phases, weeks, days, circuits, sets, reps, rest, paraphrased cues, and ALT options.
 - `src/data/exercises.json` — 64 exercises with `name_en`, `name_pt`, aliases, equipment, and muscles.
+- `src/data/visuals.ts` — photo or diagram for every exercise, including alternatives, with source and license.
 - Logs, the EN/PT choice, the unit, and completed days are stored under the `localStorage` key `fittracker.v1`.
 - Export format: `{ "app": "fittracker", "version": 1, "exportedAt": "...", "state": { ... } }`. Import accepts that file, or a raw state object of version 1.
 
