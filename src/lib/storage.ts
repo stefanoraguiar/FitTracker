@@ -8,6 +8,7 @@ export function emptyState(): AppState {
     unit: "kg",
     lang: "en",
     straightSets: false,
+    sound: true,
     rulesOpen: true,
     logs: {},
     archive: [],
@@ -64,6 +65,7 @@ export function sanitize(raw: unknown): AppState | null {
   state.unit = source.unit === "lb" ? "lb" : "kg";
   state.lang = source.lang === "pt" ? "pt" : "en";
   state.straightSets = Boolean(source.straightSets);
+  state.sound = source.sound !== false;
   state.rulesOpen = source.rulesOpen !== false;
   const repeats = Number(source.phase0Repeats);
   state.phase0Repeats = Number.isFinite(repeats) ? Math.max(0, Math.min(99, Math.floor(repeats))) : 0;

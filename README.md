@@ -27,7 +27,7 @@ npm run preview
 - **Today** opens the next day you have not marked complete. Change phase, week, or day with the three menus.
 - **EN / PT** switches exercise and equipment names. The other language stays on the line underneath, so a Portuguese machine label is still recognisable.
 - **kg / lb** is kilograms by default. Logged weights are stored in kilograms and shown in the unit you pick. A comma or a dot both work as the decimal mark.
-- Log weight and reps per set, then tap the check. The target reps are the placeholder. Rest times are minimums; **Start rest** runs an optional timer. **Circuits · listed rest** switches to straight sets and doubles the rest.
+- Log weight and reps per set, then tap the check. The target reps are the placeholder. Rest times are minimums; **Start rest** runs an optional timer with a tick at the start and a chime at the end. Turn the chime off under More. **Circuits · listed rest** switches to straight sets and doubles the rest. iPhone does not play that chime while the screen is locked; it plays when you open the app again.
 - **ALT** swaps in the listed alternative for that slot. History follows the movement you actually did.
 - **Complete day** checks the session off. If required sets are still open, it asks you to confirm. Optional exercises are not required.
 - **Program** is the 75-day map. Week 1 of each phase is marked lighter. **Repeat Phase 0** archives that phase’s logs into History and clears its checkmarks (up to three repeats is the suggestion; the button still works after that).

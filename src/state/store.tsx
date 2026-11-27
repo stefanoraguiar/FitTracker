@@ -17,6 +17,7 @@ type Action =
   | { type: "unit"; unit: Unit }
   | { type: "lang"; lang: Lang }
   | { type: "straight"; on: boolean }
+  | { type: "sound"; on: boolean }
   | { type: "rules"; open: boolean }
   | { type: "weight"; meta: SlotMeta; index: number; weightKg: number | null }
   | { type: "reps"; meta: SlotMeta; index: number; reps: string }
@@ -68,6 +69,8 @@ function reducer(state: AppState, action: Action): AppState {
       return { ...state, lang: action.lang };
     case "straight":
       return { ...state, straightSets: action.on };
+    case "sound":
+      return { ...state, sound: action.on };
     case "rules":
       return { ...state, rulesOpen: action.open };
     case "weight":
@@ -144,6 +147,7 @@ type Store = {
   setUnit: (unit: Unit) => void;
   setLang: (lang: Lang) => void;
   setStraightSets: (on: boolean) => void;
+  setSound: (on: boolean) => void;
   setRulesOpen: (open: boolean) => void;
   setWeight: (meta: SlotMeta, index: number, weightKg: number | null) => void;
   setReps: (meta: SlotMeta, index: number, reps: string) => void;
@@ -180,6 +184,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       setUnit: (unit) => dispatch({ type: "unit", unit }),
       setLang: (lang) => dispatch({ type: "lang", lang }),
       setStraightSets: (on) => dispatch({ type: "straight", on }),
+      setSound: (on) => dispatch({ type: "sound", on }),
       setRulesOpen: (open) => dispatch({ type: "rules", open }),
       setWeight: (meta, index, weightKg) => dispatch({ type: "weight", meta, index, weightKg }),
       setReps: (meta, index, reps) => dispatch({ type: "reps", meta, index, reps }),

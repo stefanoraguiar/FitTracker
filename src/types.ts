@@ -95,6 +95,7 @@ export type AppState = {
   unit: Unit;
   lang: Lang;
   straightSets: boolean;
+  sound: boolean;
   rulesOpen: boolean;
   logs: Record<string, SlotLog>;
   archive: ArchivedLog[];
